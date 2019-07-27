@@ -1,0 +1,139 @@
+header {
+  padding: 30px 20px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header a {
+  color: #4C44C1;
+  text-decoration: none;
+}
+
+header .logo {
+  display: inline-block;
+  float: left;
+  margin-right: 25px;
+}
+
+header .logo img {
+  height: 50px;
+}
+
+header .menu {
+  display: inline-block;
+  float: left;
+  position: relative;
+  top: 18px;
+  font-weight: 500;
+}
+
+header .menu a {
+  text-transform: uppercase;
+  padding-right: 15px;
+}
+
+header .header-buttons {
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: 18px;
+  }
+
+header .header-buttons .blue-btn {
+  background: #6066F2;
+  border-radius: 35px;
+  color: #FFFFFF;
+  padding: 10px 25px;
+  margin-right: 10px;
+  text-transform: uppercase;
+  -webkit-box-shadow: 3px 3px 30px -10px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 3px 3px 30px -10px rgba(0, 0, 0, 0.7);
+  box-shadow: 3px 3px 30px -10px rgba(0, 0, 0, 0.7);
+}
+
+header .header-buttons .blue-btn .fas.fa-shopping-bag {
+  padding-left: 10px;
+}
+
+header .header-buttons .orange-btn {
+  background: #FEA83B;
+  border-radius: 35px;
+  color: #FFFFFF;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  -webkit-box-shadow: 3px 3px 30px -10px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 3px 3px 30px -10px rgba(0, 0, 0, 0.7);
+  box-shadow: 3px 3px 30px -10px rgba(0, 0, 0, 0.7);
+}
+
+/* Laptop devices */
+@media only screen and (max-width: 1215px) {
+
+}
+
+/* Tablet devices */
+@media only screen and (max-width: 1023px) {
+  #top-half {
+    width: 100%;
+  }
+  #top-half header .container-header {
+    width: 100%;
+    padding: 25px 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #top-half header .header-buttons {
+    float: right;
+  }
+
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 767px) {
+  #top-half {
+    width: 100%;
+  }
+
+  #top-half header {
+    padding: 0;
+  }
+
+  #top-half header .container-header {
+    width: 100%;
+    padding: 25px 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #top-half header .logo {
+    float: none;
+    text-align: center;
+    margin-right: 0;
+    margin: 0 auto;
+  }
+
+  #top-half header .logo img {
+    height: 50%;
+    width: 100%;
+  }
+  #top-half header .menu {
+    width: 100%;
+    margin: 5px auto;
+    display: block;
+    float: none;
+  }
+  #top-half header .menu a {
+    width: 25%;
+  }
+  #top-half header .header-buttons {
+    margin: 35px auto;
+    float: none;
+  }
+}

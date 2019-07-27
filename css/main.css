@@ -1,0 +1,74 @@
+@import "reset.css";
+@import "landing-page/header.css";
+@import url('https://fonts.googleapis.com/css?family=Cairo:200,300,400,600,700&display=swap');
+@import "landing-page/top-half.css";
+@import "landing-page/design-by.css";
+@import "landing-page/color-collection.css";
+@import "landing-page/features.css";
+@import "landing-page/latest.css";
+@import "landing-page/page-footer.css";
+
+/* Color Theme Swatches in Hex
+.Project---Headphones-Site-2-hex { color: #6066F2; }
+.Project---Headphones-Site-1-hex { color: #FEA83B; }
+.Project---Headphones-Site-3-hex { color: #B286F8; }
+.Project---Headphones-Site-4-hex { color: #4C44C1; }
+.Project---Headphones-Site-5-hex { color: #E6CDF9; }
+*/
+/* Color Theme Swatches in RGBA
+.Project---Headphones-Site-1-rgba { color: rgba(254, 168, 59, 1); }
+.Project---Headphones-Site-2-rgba { color: rgba(96, 102, 242, 1); }
+.Project---Headphones-Site-3-rgba { color: rgba(178, 134, 248, 1); }
+.Project---Headphones-Site-4-rgba { color: rgba(76, 68, 193, 1); }
+.Project---Headphones-Site-5-rgba { color: rgba(230, 205, 249, 1); }
+*/
+/* Color Theme Swatches in HSLA
+.Project---Headphones-Site-1-hsla { color: hsla(33, 98, 61, 1); }
+.Project---Headphones-Site-2-hsla { color: hsla(237, 84, 66, 1); }
+.Project---Headphones-Site-3-hsla { color: hsla(263, 89, 74, 1); }
+.Project---Headphones-Site-4-hsla { color: hsla(243, 50, 51, 1); }
+.Project---Headphones-Site-5-hsla { color: hsla(274, 78, 89, 1); }
+*/
+.container-header {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.box-shadow-down {
+  -webkit-box-shadow: 4px 4px 9px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 4px 9px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 4px 9px 3px rgba(0, 0, 0, 0.75);
+}
+
+.box-shadow-center {
+  -webkit-box-shadow: 0px 0px 65px 13px rgba(158, 158, 158, 0.2);
+  -moz-box-shadow: 0px 0px 65px 13px rgba(158, 158, 158, 0.2);
+  box-shadow: 0px 0px 65px 13px rgba(158, 158, 158, 0.2);
+}
+
+input::placeholder {
+  color:#D5E2EA;
+}
+
+body, html { overflow-x:hidden; }
+
+/* Laptop devices */
+@media only screen and (max-width: 1215px) {
+
+}
+
+/* Tablet devices */
+@media only screen and (max-width: 1023px) {
+
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 768px) {
+
+}
